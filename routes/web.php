@@ -19,8 +19,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+/* Todos Route */
 Route::resource('todos', TodoController::class)
-    ->only(['index', 'store', 'update', 'destroy'])
+    ->only(['store', 'update', 'destroy'])
     ->middleware(['auth', 'verified']);
 
 require __DIR__.'/auth.php';

@@ -4,6 +4,10 @@ import { CheckIcon, Pencil1Icon, TrashIcon } from '@radix-ui/react-icons';
 import Modal from './Modal';
 import EditTodoForm from './EditTodoForm';
 
+/** TODO
+ * Displays a single todo with buttons to
+ * mark completed, edit, and delete.
+ * */
 export default function Todo({ todo }) {
   // Style
   const style = {

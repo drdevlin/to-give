@@ -1,6 +1,9 @@
 import { Field, Fieldset, Input, Label, Legend } from '@headlessui/react';
 import { useForm } from '@inertiajs/react';
 
+/** EDIT TODO FORM
+ * Edits an existing todo.
+ * */
 export default function EditTodoForm({ todo, onSuccess = () => {} }) {
   // Style
   const style = {

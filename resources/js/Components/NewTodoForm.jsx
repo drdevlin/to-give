@@ -1,6 +1,9 @@
 import { Field, Fieldset, Input, Label, Legend } from '@headlessui/react';
 import { useForm } from '@inertiajs/react';
 
+/** NEW TODO FORM
+ * Creates a new todo.
+ * */
 export default function NewTodoForm({ onSuccess = () => {} }) {
   // Style
   const style = {

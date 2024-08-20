@@ -6,6 +6,11 @@ import AuthDropdown from '@/Components/AuthDropdown';
 import Modal from '@/Components/Modal';
 import NewTodoForm from '@/Components/NewTodoForm';
 
+/** DEFAULT LAYOUT
+ * Supplies most of the app, slotting children into the <main> element.
+ * In a proper production app, this should be broken down into
+ * further components.
+ * */
 export default function Default({ user, children }) {
   // Style
   const style = {
