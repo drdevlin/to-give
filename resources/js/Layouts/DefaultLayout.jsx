@@ -13,8 +13,11 @@ export default function Default({ user, children }) {
       'absolute',
       'w-dvw h-dvh',
       'flex flex-col',
+      'overflow-hidden',
     ].join(' '),
 
+
+    /* Header */
     header: [
       'order-last',
       'md:order-first',
@@ -38,6 +41,8 @@ export default function Default({ user, children }) {
 
     mobileAuthButton: 'justify-self-end md:hidden',
 
+
+    /* Main */
     main: [
       'order-first',
       'md:order-last',
@@ -46,38 +51,13 @@ export default function Default({ user, children }) {
       'overflow-scroll',
     ].join(' '),
 
-    button: [
-      'w-full',
-      'mt-5',
-      'rounded',
-      'px-4 py-2',
-      'text-sm text-white',
-      'bg-sky-900/50 hover:bg-sky-800/50 active:bg-sky-950/50',
-      'transition',
-    ].join(' '),
 
-    buttonContent: [
-      'flex items-center gap-1',
-    ].join(' '),
-
-    buttonText: [
-      'mb-[-1px] leading-none',
-    ].join(' '),
-
-    authMenu: [
-      'flex justify-end',
-      'w-[var(--button-width)]',
-      'mt-2',
-      'border-[1px] border-sky-800/50 rounded-lg',
-      'py-2 pl-3 pr-4',
-      'text-sm text-white',
-      'bg-sky-900/25',
-    ].join(' '),
-
+    /* Animated Background */
     background: [
       '-z-10',
       'absolute inset-0',
-       'bg-slate-950',
+      'bg-slate-950',
+      'overflow-hidden',
     ].join(' '),
 
     scanningBar: [
@@ -97,7 +77,6 @@ export default function Default({ user, children }) {
       'bg-sky-800/20',
       'animate-[orbit2_85s_ease-in-out_alternate_infinite]',
     ].join(' '),
-
 
     diffusion: 'absolute inset-0 backdrop-brightness-50 backdrop-blur-3xl',
   };
