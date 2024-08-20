@@ -15,11 +15,11 @@ export default function Todo({ todo }) {
       'flex gap-3',
       'w-full max-w-prose',
       'mx-auto mb-3',
-      'border-[1px] border-sky-800/50 rounded-lg',
+      'border-[1px] rounded-lg',
+      todo.completed ? 'border-sky-800/25' : 'border-sky-800/50',
       'p-3',
       'text-sm text-white',
-      'bg-sky-900/25',
-      todo.completed ? 'opacity-50' : 'opacity-100',
+      todo.completed ? 'bg-sky-900/10' : 'bg-sky-900/25',
     ].join(' '),
 
     completedButton: [
