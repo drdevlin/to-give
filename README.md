@@ -1,4 +1,4 @@
-# TO_GIVE
+# TO-GIVE
 
 What is this thing?
 
@@ -12,10 +12,10 @@ I set a route: [View Code](routes/web.php)
 
 Wrote up the controller: [View Code](app/Http/Controllers/TodoController.php)
 
-Related the user model and todo model: [User](app/Models/User.php) [Todo](app/Models/Todo.php)
+Related the user model and todo model: [User](app/Models/User.php) | [Todo](app/Models/Todo.php)
 
 And built the frontend:
-[Default Layout](resources/js/Layouts/DefaultLayout.jsx)
-[Todo](resources/js/Components/Todo.jsx)
-[NewTodoForm](resources/js/Components/NewTodoForm.jsx)
-[EditTodoForm](resources/js/Components/EditTodoForm.jsx)
+- [Default Layout](resources/js/Layouts/DefaultLayout.jsx)
+- [Todo](resources/js/Components/Todo.jsx)
+- [NewTodoForm](resources/js/Components/NewTodoForm.jsx)
+- [EditTodoForm](resources/js/Components/EditTodoForm.jsx)
