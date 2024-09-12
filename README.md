@@ -4,8 +4,6 @@ What is this thing?
 
 Just a simple to-do app (with a twist) to familiarize myself with Laravel.
 
-[> DEPLOYED HERE <](http://167.99.149.57)
-
 ## Code Highlights
 
 I set a route: [View Code](routes/web.php)
